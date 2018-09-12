@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    color: rgb(255,81,0);
+}
+
+a:hover {
+    color: #00AEFF;
+}
+
+header {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 5px solid rgb(231, 177, 224) 
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+.clear {
+    clear: both;
+}
+
+#projects, #aboutme {
+    margin: 0 auto; 
+    width: 90%;
+    max-width: 700px;
+}
+.project {
+    margin-bottom: 20px;
+    border-bottom: 3px solid rgb(231, 177, 224);
+}
+
+.project img, #aboutme img {
+    width: 250px; 
+    float: left;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+}
+
+.project h2, #aboutme h2 {
+    font-size: 1.53em;
+    margin-bottom: 10px;
+}
